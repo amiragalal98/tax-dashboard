@@ -1,0 +1,33 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title>tax payer entry</title>
+    </head>
+    <body>
+        <h1>Enter Taxpayer record</h1>
+        <form  method="post">
+            <label > Taxpayer Name:</label><br>
+            <input type="text" name="taxpayer" ><br>
+
+            <label >Tax paid:</label><br>
+            <input type="text"  name="tax_paid"> <br><br>
+
+            
+            <input type="submit" value="Submit" ><br><br>
+            </form>
+        <h2>Taxpayer Records</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Tax Paid</th>
+            </tr>
+            {% for tax in taxes %}
+            <tr>
+                <td>{{ tax[1] }}</td>
+                <td>{{ tax[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <br>
+    </body>
+    </html>
