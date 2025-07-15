@@ -3,7 +3,8 @@ pipeline {
     stages{
         stage('checkout'){
             steps {
-                git 'https://github.com/amiragalal98/tax-dashboard.git'
+                git branch: 'main', url: 'https://github.com/amiragalal98/tax-dashboard.git'
+
             }
         }
 
