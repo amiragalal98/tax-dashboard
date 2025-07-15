@@ -28,9 +28,12 @@ project/
 │
 
 ├── init.sql # MySQL schema
+
 ├── prometheus.yml # Prometheus config
+
 ├── docker-compose.yml # Multi-service setup
-└── .github/workflows/ # GitHub Actions pipeline
+
+└── Jenkinsfile # jenkins pipeline
 └── docker-build.yml
 
 
