@@ -53,6 +53,7 @@ docker compose up -d
 | Flask App  | [http://localhost:5001](http://localhost:5001) |
 | Grafana    | [http://localhost:3000](http://localhost:3000) |
 | Prometheus | [http://localhost:9090](http://localhost:9090) |
+| Jenkins    | [http://localhost:8080](http://localhost:8080) |
 
 
 🧪 Features
@@ -64,7 +65,7 @@ docker compose up -d
 
 *Monitored using Prometheus (http requests, status codes, etc.).
 
-*CI/CD builds app image automatically using GitHub Actions.
+*CI/CD builds app image automatically using GitHub Actions OR Jenkins.
 
 
 
