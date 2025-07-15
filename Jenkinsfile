@@ -10,7 +10,7 @@ pipeline {
 
         stage('build docker image'){
             steps{
-                sh 'docker build -t flask-matrics-app .'
+                sh 'docker build -t flask-matrics-app ./app'
             }
         }
 
