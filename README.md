@@ -19,11 +19,14 @@ A full-stack Dockerized application that collects tax data using a Flask web app
 ## 🗂️ Project Structure
 
 project/
+
 │
 ├── app/ # Flask app and Dockerfile
+
 │ ├── app.py
 │ └── templates/index.html
 │
+
 ├── init.sql # MySQL schema
 ├── prometheus.yml # Prometheus config
 ├── docker-compose.yml # Multi-service setup
