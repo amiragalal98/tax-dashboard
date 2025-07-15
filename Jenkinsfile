@@ -4,6 +4,7 @@ pipeline {
         stage('checkout'){
             steps {
                 git branch: 'main', url: 'https://github.com/amiragalal98/tax-dashboard.git'
+                sh 'docker --version'
 
             }
         }
