@@ -50,7 +50,7 @@ docker compose up -d
 3. Access the apps:
 | Service    | URL                                            |
 | ---------- | ---------------------------------------------- |
-| Flask App  | [http://localhost:5001](http://localhost:5001) |
+| Flask App  | [http://localhost:5001](http://localhost:5000) |
 | Grafana    | [http://localhost:3000](http://localhost:3000) |
 | Prometheus | [http://localhost:9090](http://localhost:9090) |
 | Jenkins    | [http://localhost:8080](http://localhost:8080) |
