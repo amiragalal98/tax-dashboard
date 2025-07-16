@@ -28,7 +28,7 @@ services:
     volumes:
       - "./prometheus:/etc/prometheus"
     ports:
-      - "9090:9090"
+      - "9091:9090"
 volumes:
   db-data:
   grafana-data:
