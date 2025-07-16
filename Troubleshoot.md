@@ -11,7 +11,7 @@ This document lists all the major issues encountered during development,setup, a
 Wrong format in `docker-compose.yml` under `environment ,`.
 
 **Fix:**  
-Ensure environment variables are in key-value form:-
+Ensure environment variables are in  a key-value form:-
 
 ```yaml
 environment:
