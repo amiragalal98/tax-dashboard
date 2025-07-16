@@ -3,7 +3,7 @@ services:
   web:
     image: amira/flask-app:latest
     ports:
-      - "5001:5000"
+      - "5002:5000"
     depends_on:
       - db
   db:
@@ -16,11 +16,11 @@ services:
       - db-data:/var/lib/mysql
       - ./init-db:/docker-entrypoint-initdb.d
     ports:
-      - "3506:3306"
+      - "3706:3306"
   grafana:
     image: grafana/grafana
     ports:
-      - "3001:3000"  
+      - "3002:3000"  
     volumes:
       - grafana-data:/var/lib/grafana  
   prometheus:
@@ -28,7 +28,7 @@ services:
     volumes:
       - "./prometheus:/etc/prometheus"
     ports:
-      - "9080:9090"
+      - "9070:9090"
 volumes:
   db-data:
   grafana-data:
