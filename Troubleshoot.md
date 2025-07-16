@@ -6,7 +6,7 @@ This document lists all the major issues encountered during development,setup, a
 
 ## 📦 Docker & Docker Compose Issues
 
-### ❌ `environment must be a string or number `
+### ❌ `environment must be a string or number a`
 **Problem:**  
 Wrong format in `docker-compose.yml` under `environment`.
 
