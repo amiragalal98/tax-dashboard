@@ -10,7 +10,7 @@ A full-stack Dockerized application that collects tax data using a Flask web app
 - **MySQL** — Database to store tax data
 - **Docker + Docker Compose** — Containerization
 - **Grafana** — Visualization of tax data
-- **Prometheus** — Monitoring metrics from the Flask app
+- **Prometheus** — Monitoring metrics from the Flask app.
 - **GitHub Actions** — CI/CD automation
 - **Jenkins** *(optional)* — Alternative CI/CD pipeline.
 
