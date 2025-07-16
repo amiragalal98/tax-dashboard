@@ -8,7 +8,7 @@ This document lists all the major issues encountered during development,setup, a
 
 ### ❌ `environment must be a string or number a`
 **Problem:**  
-Wrong format in `docker-compose.yml` under `environment`.
+Wrong format in `docker-compose.yml` under `environment ,`.
 
 **Fix:**  
 Ensure environment variables are in key-value form:-
