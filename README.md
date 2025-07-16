@@ -12,7 +12,7 @@ A full-stack Dockerized application that collects tax data using a Flask web app
 - **Grafana** — Visualization of tax data
 - **Prometheus** — Monitoring metrics from the Flask app
 - **GitHub Actions** — CI/CD automation
-- **Jenkins** *(optional)* — Alternative CI/CD pipeline
+- **Jenkins** *(optional)* — Alternative CI/CD pipeline.
 
 ---
 
