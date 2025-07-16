@@ -1,6 +1,6 @@
 # 🛠️ Troubleshooting Guide for Tax Dashboard Project
 
-This document lists all the major issues encountered during development, setup, and deployment of the project — along with the steps taken to solve them.
+This document lists all the major issues encountered during development,setup, and deployment of the project — along with the steps taken to solve them.
 
 ---
 
